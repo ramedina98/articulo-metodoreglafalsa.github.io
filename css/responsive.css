@@ -1,0 +1,99 @@
+/*Hoja de estilos para el responsive...*/
+@media screen and (max-width: 938px){
+    .articulo{
+        width: 93%;
+    }
+    .cont_imagenes{
+        height: 520px;
+        border-bottom: 1px solid var(--b);
+    }
+    .aside{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .cont_all{
+        justify-content: flex-end;
+    }
+    .cont_title_materia{
+        display: none;
+    }
+    .cont_btns_right{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 548px){
+    .articulo{
+        padding: 0;
+    }
+    .articulo h2{
+        font-size: 1.1em;
+        text-align: center;
+    }
+    .articulo p{
+        font-size: 0.9em;
+    }
+    .cont_imagenes{
+        justify-content: flex-start;
+        height: 540px;
+    }
+    .imagenes{
+        height: 70%;
+    }
+    .descripcion{
+        height: 20%;
+    }
+    .fotos:last-of-type{
+        display: none;
+    }
+    .fotos{
+        width: 100%;
+    }
+    .gone{
+        display: none;
+    }
+    .out{
+        display: none;
+    }
+    .less_margin{
+        margin-top: -10px;
+    }
+    .cont_des_img{
+        display: none;
+    }
+    .cont_etiquetas{
+        margin-top: 1.2rem;
+    }
+    .btn_docu{
+        font-size: 0.75em;
+    }
+}
+@media screen and (max-width: 425px){
+    .uned_plus{
+        display: none;
+    }
+    .cont_btn_docu{
+        display: none;
+    }
+    .separador{
+        width: 100%;
+        align-items: center;
+        padding: none;
+    }
+    .fecha{
+        width: 90%;
+    }
+    .titulo_atractivo{
+        font-size: 0.6em;
+    }
+    .autor{
+        width: 60%;
+        margin-bottom: 0.5em;
+    }
+    .img_encabezado{
+        display: none;
+    }
+    .politicas{
+        width: 100%;
+    }
+}

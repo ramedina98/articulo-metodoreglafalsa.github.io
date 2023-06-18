@@ -1,0 +1,186 @@
+
+[
+    {
+        "id": 1,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/jaguar_0.webp?w=1450&h=1088", 
+        "subTitulo":"animales | photo ark", 
+        "subLink":"https://www.nationalgeographicla.com/animales",
+        "extracto":"Jaguar",
+        "linkWeb":"https://www.nationalgeographicla.com/animales/2020/04/jaguar"
+    }, 
+    {
+        "id": 2,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/160419-sciex-til-luke-powell-birds-eat-dirt_thumbnail_clean_m16020-12.webp?w=1450&h=1088", 
+        "subTitulo":"animales 1:23", 
+        "subLink":"https://www.nationalgeographicla.com/animales",
+        "extracto":"¿Por qué estos pájaros comen tierra?", 
+        "linkWeb":"https://www.nationalgeographicla.com/animales/Por-que-estos-pajaros-comen-tierra"
+    }, 
+    {
+        "id": 3,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/1894112835630_1620331096223.webp?w=1450&h=1088", 
+        "subTitulo":"historia 2:15", 
+        "subLink":"https://www.nationalgeographicla.com/historiaycultura",
+        "extracto":"La firma que puso fin a la Segunda Guerra Mundial en Europa",
+        "linkWeb":"https://www.nationalgeographicla.com/historia/firma-puso-fin-a-la-segunda-guerra-mundial-en-europa"
+    },
+    {
+        "id": 4,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/1886342723700_1618837141792.webp?w=1450&h=1088", 
+        "subTitulo":"lo que hace cuenta 0:38", 
+        "subLink":"https://www.nationalgeographicla.com/search?q=lo%20que%20hace%20cuenta%200:38",
+        "extracto":"Lo que haces cuenta | Balancea tu dieta",
+        "linkWeb":"https://www.nationalgeographicla.com/medio-ambiente/lo-que-haces-cuenta-balancea-tu-dieta"
+    },
+    {
+        "id": 5,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/01-dna-nationalgeographic_2490526.webp?w=1450&h=1088", 
+        "subTitulo":"ciencia", 
+        "subLink":"https://www.nationalgeographicla.com/ciencia",
+        "extracto":"ADN: Aprende más sobre el elemento fundamental de la vida",
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2019/04/adn-aprende-mas-sobre-el-elemento-fundamental-de-la-vida"
+    },
+    {
+        "id": 6,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/berlin-wall-reference-548158715.webp?w=1450&h=1088", 
+        "subTitulo":"historia",
+        "subLink":"https://www.nationalgeographicla.com/historiaycultura",
+        "extracto":"Por qué se levantó el Muro de Berlín... y cómo cayó",
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2019/11/por-que-se-levanto-el-muro-de-berlin-y-como-cayo"
+    },
+    {
+        "id": 7,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/1160.webp?w=1450&h=1088", 
+        "subTitulo":"espacio", 
+        "subLink":"https://www.nationalgeographicla.com/search?q=espacio",
+        "extracto":"Todo lo que querías saber sobre las estrellas",
+        "linkWeb":"https://www.nationalgeographicla.com/espacio/2019/07/todo-lo-que-querias-saber-sobre-las-estrellas"
+    },
+    {
+        "id": 8,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/gettyimages-514870086.webp?w=1450&h=1088", 
+        "subTitulo":"historia",
+        "subLink":"https://www.nationalgeographicla.com/historiaycultura",
+        "extracto":"Guerra Fría: ¿qué fue y cómo terminó?",
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2022/03/guerra-fria-que-fue-y-como-termino"
+    },
+    {
+        "id": 9,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/170110-news-japan-monkey-deer-sex-thumbnail0_1280x720_1453911619823.webp?w=1450&h=1088", 
+        "subTitulo":"animales 0:53", 
+        "subLink":"https://www.nationalgeographicla.com/animales",
+        "extracto":"Imágenes fuertes: Macaco intenta aparearse con una cierva",
+        "linkWeb":"https://www.nationalgeographicla.com/video/tv/imagenes-fuertes-macaco-intenta-aparearse-con-una-cierva"
+    },
+    {
+        "id": 10,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_999805.webp?w=1450&h=816", 
+        "subTitulo":"chernóbil", 
+        "subLink":"https://www.nationalgeographicla.com/search?q=chernobil",
+        "extracto":"Los hijos de sobrevivientes no presentan transmisión de un exceso de mutaciones genéticas",
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2021/04/chernobil-los-hijos-de-sobrevivientes-no-presentan-transmision-de-un-exceso-de-mutaciones-geneticas"
+    },
+    {
+        "id": 11,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2172911.webp?w=1450&h=816", 
+        "subTitulo":"salud",
+        "subLink":"https://www.nationalgeographicla.com/search?q=salud",
+        "extracto":"¿Qué es la yerba mate? ¿Es realmente buena para la salud?",
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/06/que-es-la-yerba-mate-esta-bebida-con-cafeina-es-realmente-buena-para-la-salud"
+    },
+    {
+        "id": 12,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2800777.webp?w=1450&h=1088", 
+        "subTitulo":"ciencia",
+        "subLink":"https://www.nationalgeographicla.com/ciencia",
+        "extracto":"Por qué temblamos cuando hace frío: la explicación de la ciencia",
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/06/por-que-temblamos-cuando-hace-frio-la-explicacion-de-la-ciencia"
+    },
+    {
+        "id": 13,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/eoarctos.webp?w=1450&h=816", 
+        "subTitulo":"animales",
+        "subLink":"https://www.nationalgeographicla.com/animales",
+        "extracto":"¿Un 'gatito-nutria-oso'? Descubre la extraña especie que sorprende a los científicos",
+        "linkWeb":"https://www.nationalgeographicla.com/animales/2023/06/un-gatito-nutria-oso-descubre-la-extrana-especie-que-sorprende-a-los-cientificos"
+    },
+    {
+        "id": 14,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/31717626834382c693c8o.webp?w=1450&h=816", 
+        "subTitulo":"historia y cultura",
+        "extracto":"Asi es Uitoto, el pueblo natal de los cuatro niños perdidos de Colombia",
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/como-es-el-pueblo-uitoto-al-que-pertenecen-los-cuatro-ninos-perdidos-de-colombia"
+    },
+    {
+        "id": 15,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/16649_990x557-cb1271193984.webp?w=1450&h=816", 
+        "subTitulo":"medio ambiente",
+        "subLink":"https://www.nationalgeographicla.com/medio-ambiente",
+        "extracto":"Estas son las consecuencias del calentamiento de los mares",
+        "linkWeb":"https://www.nationalgeographicla.com/medio-ambiente/2023/06/por-que-nos-tiene-que-importar-el-calentamiento-de-los-oceanos"
+    },
+    {
+        "id": 16,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2734802.webp?w=1450&h=816", 
+        "subTitulo":"salud",
+        "subLink":"https://www.nationalgeographicla.com/search?q=salud",
+        "extracto":"¿Por qué da sueño después de comer?: Lo que le sucede al cuerpo",
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/05/por-que-da-sueno-despues-de-comer-lo-que-le-sucede-al-cuerpo"
+    },
+    {
+        "id": 17,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/batalhadecampogrande-1871.webp?w=1450&h=816", 
+        "subTitulo":"historia",
+        "subLink":"https://www.nationalgeographicla.com/historiaycultura",
+        "extracto":"Cuál fue la guerra más sangrienta de la historia latinoamericana",
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/cual-fue-la-guerra-mas-sangrienta-de-la-historia-latinoamericana"
+    },
+    {
+        "id": 18,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/526363349237e8f079580o.webp?w=1450&h=816", 
+        "subTitulo":"historia",
+        "subLink":"https://www.nationalgeographicla.com/historiaycultura",
+        "extracto":"Quién fue Ana Frank: 5 datos que no conocías",
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/quien-fue-ana-frank-5-datos-que-no-conocias"
+    },
+    {
+        "id": 19,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2794594.webp?w=1450&h=816", 
+        "subTitulo":"historia",
+        "subLink":"https://www.nationalgeographicla.com/historiaycultura",
+        "extracto":"¿Qué es el Corpus Christi y cuál es el origen de su celebración?",
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/que-es-el-corpus-christi-y-cual-es-el-origen-de-su-celebracion"
+    },
+    {
+        "id": 20, 
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2707504.webp?w=1450&h=816", 
+        "subTitulo":"salud",
+        "subLink":"https://www.nationalgeographicla.com/search?q=salud",
+        "extracto":"¿Qué pueden provocar los alimentos procesados en el cuerpo?",
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/06/que-pueden-provocar-los-alimentos-procesados-en-el-cuerpo"
+    },
+    {
+        "id": 21,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2741759.webp?w=1450&h=816&p=top", 
+        "subTitulo":"historia",
+        "subLink":"https://www.nationalgeographicla.com/historiaycultura",
+        "extracto":"¿Fue esta extraña especie de cerebro diminuto la primera en enterrar a sus muertos?",
+        "linkWeb":"https://www.nationalgeographicla.com/historia/2023/06/fue-esta-extrana-especie-de-cerebro-diminuto-la-primera-en-enterrar-a-sus-muertos"
+    },
+    {
+        "id": 22,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_740366.webp?w=1450&h=816", 
+        "subTitulo":"animales",
+        "subLink":"https://www.nationalgeographicla.com/animales",
+        "extracto":"Los bichos de luz están desapareciendo: 5 acciones para protegerlos",
+        "linkWeb":"https://www.nationalgeographicla.com/animales/2023/06/los-bichos-de-luz-estan-desapareciendo-5-acciones-para-protegerlos"
+    },
+    {
+        "id": 23,
+        "imagen":"https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2737205x.webp?w=1450&h=816", 
+        "subTitulo":"ciencia",
+        "subLink":"https://www.nationalgeographicla.com/ciencia",
+        "extracto":"¿Se cruzaron los primeros humanos con una población 'fantasma'?",
+        "linkWeb":"https://www.nationalgeographicla.com/ciencia/2023/05/se-cruzaron-los-primeros-humanos-con-una-poblacion-fantasma"
+    }
+]

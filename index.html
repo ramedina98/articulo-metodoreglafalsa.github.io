@@ -1,2 +1,397 @@
-<!--Aun no se inicia el proyecto aquí, pero ya mero, ya casi acabo la base de 
-como se tienen que ver los articulos...-->
+<!--This html sheet contains the complete information of 
+the Babylonian method, it has part of its history, how 
+it works, what it is usually used for and it also has the 
+flowchart I used to design it...-->
+
+<!--Este cometario lo escribo para validar que si esta jalando todo bien...-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método De La Regla Flasa || Métodos Numericos</title>
+    <link rel="shortcut icon" href="imagenes/regla.ico">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="#">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Barlow+Condensed:ital,wght@0,500;1,300&family=Creepster&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--El encabezado de la pagina...-->
+    <header>
+        <div class="call_to">
+            <div class="news_letter_a">
+                <a href="#">suscríbete al newsletter</a>
+            </div>
+            <div class="uned_plus">
+                <a href="#">unedl+</a>
+            </div>
+        </div>
+        <div class="cont_all">
+            <!--Left-->
+            <div class="cont_title_materia">
+                <h2>MÉTODOS NUMERICOS</h2>
+            </div>
+            <!--Right-->
+            <div class="cont_btns_right">
+                <nav class="btn_inicio">
+                    <a href="https://ramedina98.github.io/metodos-numericos.github.io/" class="aa">Inicio</a>
+                </nav>
+                <!--Aquí falta terminar de hacer bien el boton de dark mode
+                a su vez falta que le acomodemos el estilo general al header,
+                hay que buscar la pagina que nos ayudo con el estilo de la pagina 
+                principal...-->
+                <div class="cont_btn_dark">
+                    <button class="switch" id="switch">
+                        <img src="imagenes/sunny.png" alt="">
+                        <img src="imagenes/moon.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Aqui va la información más importante...-->
+    <main>
+        <!--En este div tenemos lo que el titulo con información importante 
+        el separador de imagen y demas...-->
+        <div class="up">
+            <div class="separador">
+                <!--Solo contiene un pequeño elemento que tiene el titulo de que materia es...-->
+                <div class="cont_btn_materia">
+                    <div class="btn_materia">
+                        <p>
+                            matemáticas
+                        </p>
+                    </div>
+                </div>
+                <!--Aqui tendremos un titulo en grande, como estilo de click byte...-->
+                <div class="titulo_atractivo">
+                    <h1>
+                        "El Método Babilonico: Un Tesoro Matemático Rescatado del Pasado
+                    </h1>
+                </div>
+                <!--Aquí estara el subtitulo...-->
+                <div class="sub_titulo">
+                    <h3>
+                        Descubriendo los secretos de una antigua civilización y su legado en las 
+                        matemáticas.
+                    </h3>
+                </div>
+                <!--Aqui tenemos información de quien escribio el articulo y fecha de publicación...-->
+                <div class="cont_info">
+                    <div class="autor">
+                        <h3>
+                            Por <span>rogelio garcia perez</span>
+                        </h3>
+                    </div>
+                    <div class="fecha">
+                        <h3>
+                            publicado <span>5 de junio 2023, 17:14 gmt-2</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!--Este div tiene una imagen como encabezado...-->
+            <div class="img_encabezado"></div>
+            <!--Este div es el pie de foto...-->
+            <div class="cont_des_img">
+                <div class="des_img">
+                    <p>
+                        Este mural se inspira en el 
+                        arte babilónico y evoca la grandeza y el 
+                        simbolismo de esta antigua civilización.
+                    </p>
+                    <span>
+                        fotografía de gregorio
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--En este div tenemos lo que vendria siedo el articulo principal y 
+        el aside: donde tendremos otras cartas con info de los otros metodos
+        vistos en clase, estilo nat geo-->
+        <div class="dow">
+            <!--Articulo principla...-->
+            <div class="articulo">
+                <p>
+                    En un emocionante descubrimiento arqueológico, los expertos 
+                    han revelado uno de los mayores <b>tesoros matemáticos</b> de la 
+                    historia: el <span class="green_line">Método Babilónico</span>. Esta fascinante técnica, 
+                    desarrollada hace más de <b>4.000 años por los antiguos babilonios</b>, 
+                    ha sido redescubierta y se considera un hito importante en la 
+                    evolución de las matemáticas. Acompáñanos en este viaje por el 
+                    tiempo mientras exploramos la historia, el desarrollo y las 
+                    aplicaciones actuales de este asombroso método matemático. 
+                </p>
+                <h2>
+                    El Legado de los Antiguos Babilonios
+                </h2>
+                <p>
+                    <span class="green_line">Los babilonios</span>, una antigua civilización que floreció en la 
+                    región de <b>Mesopotamia</b>, en lo que hoy es <b>Irak</b>, fueron conocidos 
+                    por su avanzado conocimiento en <span class="green_line">matemáticas y astronomía.</span> 
+                    Fueron los primeros en desarrollar un sistema numérico posicional, 
+                    basado en el número 60, conocido como el <span class="green_line">sistema sexagesimal</span>. 
+                    Esta innovadora forma de contar sentó las bases para el Método Babilónico, 
+                    una técnica revolucionaria que les permitió resolver ecuaciones 
+                    cuadráticas.
+                </p>
+                <p>
+                    El <span class="green_line">sistema sexagesimal</span> de los babilonios se basaba en el uso de 
+                    símbolos para representar diferentes cantidades. Utilizaban marcas 
+                    en forma de cuñas en tablillas de arcilla para realizar cálculos. 
+                    Estas tablillas, escritas en <b>escritura cuneiforme</b>, son la evidencia 
+                    tangible de su genio matemático y de cómo desarrollaron el Método Babilónico.
+                </p>
+                <!--Agregamos dos imagenes relacionadas a los prrafos de arriba y tambien agregamos
+                sus descripciones...-->
+                <div class="cont_imagenes">
+                    <div class="imagenes">
+                        <div class="fotos" id="mesopotamia"></div>
+                        <div class="fotos" id="tablilla"></div>
+                    </div>
+                    <div class="descripcion">
+                        <p>
+                            <span class="gone">Izquierda: </span>Foto de la antigua ciuda de <span class="green_line">Mardin, Turquia</span> 2022.
+                            Esta ciudad se encuentra cituada en la región histórica de Mesopotamia, zona que abarca a los paises de
+                            Irak, Turquia y Siria.
+                            <br>
+                            <span class="photo_author">fotografía de <a href="https://unsplash.com/es/@onkysf">Yusuf Onuk</a></span>
+                        </p>
+                        <p class="out">
+                            <span>Derecha: </span>Unas tablillas de arcilla han revelado la ubicación de <span class="green_line">11 ciudades</span>
+                            perdidas de la Edad del Bronce.
+                            <br>
+                            <span class="photo_author">foto: LACMA (Los Angeles County Museum of Art)</span>
+                        </p>
+                    </div>
+                </div>
+                <!--End-->
+                <h2 class="less_margin">
+                    El Desarrollo del Método Babilónico
+                </h2>
+                <p>
+                    El crédito por el desarrollo del <span class="green_line"><b>Método Babilónico</b></span> se atribuye a 
+                    los matemáticos babilonios, cuyos nombres se han perdido en el 
+                    transcurso del tiempo. Sin embargo, sus logros fueron registrados 
+                    en tablillas de arcilla que se conservaron a lo largo de los siglos. 
+                    Estas tablillas, escritas en escritura cuneiforme, son la evidencia 
+                    tangible de su genio matemático.
+                </p>
+                <p>
+                    El <b>Método Babilónico</b> se basa en un proceso iterativo para encontrar 
+                    una aproximación cada vez más precisa de la solución de una <span class="green_line">ecuación 
+                    cuadrática.</span> Utilizando su sistema sexagesimal, los babilonios 
+                    encontraron métodos sistemáticos para aproximarse a raíces cuadradas 
+                    y resolver <b>problemas geométricos.</b>
+                </p>
+                <p>
+                    El método se aplica principalmente para resolver ecuaciones cuadráticas 
+                    de la forma <span class="green_line"><b>ax^2 + bx + c = 0</b></span>, donde a, b y c son coeficientes dados. 
+                    <b>Los babilonios</b> desarrollaron un algoritmo que les permitía obtener 
+                    una aproximación de la solución de dicha ecuación utilizando 
+                    iteraciones. En cada iteración, refinaban su aproximación inicial 
+                    hasta obtener un resultado más preciso.
+                </p>
+                <p>
+                    <span class="green_line">La clave del Método Babilónico</span> radica en la manipulación algebraica 
+                    de la ecuación original. Los babilonios utilizaban una técnica 
+                    conocida como <span class="green_line"><b>completar el cuadrado</b></span>, que consiste en agregar o 
+                    restar un término adecuado para convertir la ecuación en una forma 
+                    más fácil de resolver. Luego, empleaban una serie de operaciones 
+                    aritméticas para encontrar una aproximación de la solución.
+                </p>
+                <h2>
+                    El Descubrimiento y la Redescubrimiento Moderno
+                </h2>
+                <p>
+                    <b>El Método Babilónico</b> permaneció en el olvido durante siglos hasta 
+                    que, en el <span class="green_line">siglo XIX</span>, el asiriólogo británico <span class="green_line"><b>Henry Rawlinson</b></span>
+                    descifró la escritura cuneiforme. Esto permitió a los expertos en 
+                    matemáticas redescubrir las técnicas empleadas por los babilonios y 
+                    apreciar su contribución al campo de las matemáticas.
+                </p>
+                <p>
+                    Los textos matemáticos babilónicos, incluidos los que describen el Método Babilónico, 
+                    fueron descifrados y traducidos por varios académicos y expertos a lo largo del tiempo. 
+                    Uno de los primeros en realizar un trabajo significativo en este campo fue el asiriólogo 
+                    alemán <span class="green_line"><b>Ernst Eduard Kummer</b></span> en el siglo <b>XIX</b> . Posteriormente, otros expertos, como<span class="green_line"><b>Otto Neugebauer</b></span> 
+                    y <span class="green_line"><b>Abraham Sachs</b></span>, también hicieron contribuciones importantes en la interpretación y traducción 
+                    de estos textos.
+                </p>
+                <p>
+                    <span class="green_line">El redescubrimiento del Método Babilónico</span> ha permitido a los 
+                    matemáticos contemporáneos comprender cómo los babilonios abordaron 
+                    y resolvieron problemas matemáticos complejos <span class="green_line">hace miles de años.</span> 
+                    Su enfoque ingenioso y metódico sirve como inspiración y enseñanza 
+                    para las generaciones actuales.
+                </p>
+                <!--Aqui tenemos otra imagen, en este caso es la de coronel Henry y George G...-->
+                <div class="cont_imagenes">
+                    <div class="imagenes">
+                        <div class="fotos" id="henry"></div>
+                        <div class="fotos" id="ernst"></div>
+                    </div>
+                    <div class="descripcion">
+                        <p>
+                            <span class="gone">Izquierda: </span>El coronel Henry Rawlinson, Primer Baronet:
+                            fue un soldado británico, diplomático y orientalista.También conocido como el <span class="green_line">Padre de la <b>Asiriología</b></span>.
+                            <br>
+                            <span class="photo_author">foto: archivo fotográfico del museo de londres.</span>
+                        </p>
+                        <p class="out">
+                            <span>Derecha: </span>Ernest Eduard Kummer: Fue un matemático alemán. Altamente capacitado para
+                            la matemática aplicada.
+                            <br>
+                            <span class="photo_author">foto: archivo fotográfico de berlin.</span>
+                        </p>
+                    </div>
+                </div>
+                <!--End-->
+                <h2 class="less_margin">
+                    El Método Babilónico en la Actualidad
+                </h2>
+                <p>
+                    Aunque el Método Babilónico tiene <span class="green_line"><b>más de 4.000 años</b></span>, su relevancia 
+                    en la actualidad no debe subestimarse. Aunque las calculadoras y las 
+                    computadoras pueden resolver ecuaciones cuadráticas de manera 
+                    instantánea, el <b>Método Babilónico</b> sigue siendo una herramienta 
+                    valiosa para entender la lógica y el proceso detrás de la solución 
+                    de ecuaciones.
+                </p>
+                <p>
+                    Además, el Método Babilónico <span class="green_line">ha encontrado aplicaciones en otros campos</span> 
+                    de las matemáticas y más allá. Su enfoque de refinamiento iterativo 
+                    se ha utilizado como base para desarrollar algoritmos modernos en diversas 
+                    áreas, como <span class="green_line"><b>la optimización numérica y el aprendizaje 
+                    automático.</b></span> La capacidad de aproximar soluciones y refinarlas 
+                    gradualmente sigue siendo un enfoque valioso en muchas disciplinas.
+                </p>
+                <p>
+                    En el campo de la <b>historia y la arqueología</b>, el <span class="green_line">Método Babilónico</span> 
+                    ha ayudado a desentrañar los enigmas de las antiguas civilizaciones 
+                    y a reconstruir su conocimiento matemático perdido. Los estudios de 
+                    <span class="green_line">las tablillas de arcilla babilónicas</span> y sus técnicas matemáticas han 
+                    proporcionado una visión única de la mente matemática de los antiguos 
+                    babilonios y su contribución al desarrollo de las matemáticas.
+                </p>
+            </div>
+            <!--Aquí esta el sider...-->
+            <div class="aside">
+                <!--Aquí tendremos una zona en donde saldran imagenes
+                como si fueran publicidad. Tambien tienen que cambiar
+                cada cierto tiempo, pero esto sera con el reloj...cada
+                minuto por lo menos...-->
+                <div class="cont_publicidad"></div>
+                <!--Zona donde estan las otras cartas de articulos
+                Estaria chido programar esto tambien en JS para que
+                cada vez que se refresque la pagina cambien los
+                articulos que salen ahi. Notodos tendran su pagina
+                pero se pueden redireccionar a otros lados...Hay prcaticar
+                con los JSON...-->
+                <div class="cont_otros_articulos">
+                    <!--Este primer div es el titulo del aside...-->
+                    <div class="encabezado">
+                        <h2 class="lineas">
+                            métodos numericos 
+                        </h2>
+                    </div>
+                    <!--Here are all the articles, they are being 
+                    generated with JS-->
+                    <div class="cont_car_all"></div>
+                </div>
+                <div class="cont_btnvermas">
+                    <button class="vermas">ver más</button>
+                </div>
+            </div>
+        </div>
+        <!--Esta zona es para poner etiquetas relacionadas al 
+        tema, las cuales te redireccionan a articulos con tema 
+        similar...-->
+        <div class="cont_etiquetas">
+            <div class="cont_btn_docu">
+                <a href="https://www.youtube.com/watch?v=sFMK3v879kg" class="btn_docu">mira el documental completo en youtube</a>
+            </div>
+            <!--Hay que generar esto con codigo JS-->
+            <div class="etiquetas">
+                <a href="https://www.nationalgeographicla.com/search?q=matematicas" class="etiqueta">matemática</a>
+                <a href="https://www.nationalgeographicla.com/historiaycultura" class="etiqueta">historia</a>
+                <a href="https://www.nationalgeographicla.com/search?q=civilizaciones%20antiguas" class="etiqueta">civilizaciones antiguas</a>
+                <a href="https://www.nationalgeographicla.com/search?q=civilizaciones" class="etiqueta">civilizaciones</a>
+            </div>
+        </div>
+    </main>
+    <!--Aqui iniciamos con el pie de pagina...-->
+    <footer>
+        <!--Este div contiene todo lo relacionado a más temas, cosas sobre la empresa, subscripciones
+        redes y más...-->
+        <div class="redes_mas_nosotros">
+            <div class="cont_ligas">
+                <ul>
+                    <li class="titulo_ligas">descubre más nat</li>
+                    <li><a href="#">Animales</a></li>
+                    <li><a href="#">Medio ambiente</a></li>
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Ciencia</a></li>
+                    <li><a href="#">Viajes</a></li>
+                    <li><a href="#">Fotografía</a></li>
+                    <li><a href="#">Espacio</a></li>
+                    <li><a href="#">Video</a></li>
+                </ul>
+            </div>
+            <div class="cont_ligas">
+                <ul>
+                    <li class="titulo_ligas">sobre nosotros</li>
+                    <li><a href="#">Temas, autores y fotografos</a></li>
+                    <li><a href="#">Undl Partners</a></li>
+                    <li><a href="#">Unedl Society</a></li>
+                    <li><a href="#">Exploradores</a></li>
+                </ul>
+            </div>
+            <div class="cont_ligas">
+                <ul>
+                    <li class="titulo_ligas">subscripción</li>
+                    <li><a href="#">Registrate en nuestro newsletter</a></li>
+                    <li><a href="#">Undl+</a></li>
+                </ul>
+            </div>
+            <div class="cont_ligas">
+                <div class="cont_titulo_ligas">
+                    <h2>síguenos</h2>
+                </div>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-flipboard"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--Este div contiene politicas de privacidad, copy right y más cosas relacionadas a eso...-->
+        <div class="copy_politicas">
+            <div class="politicas">
+                <div class="links"><a>Condiciones de Uso</a></div>
+                <div class="links"><a>Política de Privacidad</a></div>
+                <div class="links"><a>Anuncios basados en tu interés</a></div>
+            </div>
+            <div class="copy">
+                <p>
+                    COPYRIGHT © 1990-2015 NATIONAL ENRIQUE DIAZ DE LEON. COPYRIGHT © 2015-2023 
+                    ENRIQUE DIAZ PARTNERS, LLC. TODOS LOS DERECHOS RESERVADOS
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--Archivos de JS-->
+    <script src="JS/main.js"></script>
+</body>
+</html>
