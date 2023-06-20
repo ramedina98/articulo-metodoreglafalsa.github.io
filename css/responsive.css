@@ -22,6 +22,14 @@
         height: 70px;
     }
 }
+@media screen and (max-width: 682px){
+    .cont_all_video{
+        display: none;
+    }
+    #btn_video{
+        display: flex;
+    }
+}
 @media screen and (max-width: 548px){
     .articulo{
         padding: 0;
